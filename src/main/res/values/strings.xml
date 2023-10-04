@@ -1,0 +1,282 @@
+<resources>
+    <string name="app_name">Tattoo Manager</string>
+
+    <string name="btnStart">Comenzar</string>
+    <string name="btnCotizar">Cotizar</string>
+    <string name="btnContinuar">Continuar</string>
+    <string name="btnMegusta">Megusta</string>
+    <string name="btnAdd">Agregar</string>
+    <string name="btnAgendar">Agendar</string>
+    <string name="btnUpload">Subir</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="bntDelete">Eliminar</string>
+    <string name="btnAceptar">Aceptar</string>
+    <!--Titulos texto -->
+    <string name="Info">Información</string>
+    <string name="Agendartitle">Agendar</string>
+    <string name="Galeria">Galeria</string>
+    <string name="Bienvenida">Bienvenido</string>
+    <string name="TituloCot">Cotizar</string>
+    <string name="Estudiotitle">Estudio</string>
+    <string name="MainTitulo">Tattoo Manager</string>
+    <!--Subtitulos texto -->
+    <string name="Question1">¿En qué parte del cuerpo te quieres tatuar?</string>
+    <string name="Question2">Segun la paleta de colores ¿Cuál se asemeja a tu tono de piel?</string>
+    <string name="Question3">¿Qué estilo deseas?</string>
+    <string name="Question4">¿Qué colores deseas?</string>
+    <string name="Question5">¿Qué tamaño deseas en cm?</string>
+    <string name="Textopredef">Texto predefinido</string>
+    <string name="subt1">Realismo</string>
+    <string name="subt2">Black Work</string>
+    <string name="subt3">Porfavor dale megusta a la pagina</string>
+    <string name="subt4">Elementos seleccionados</string>
+    <string name="subt5">Imagen de referencia</string>
+    <string name="subt6">Selecciona el día deseado</string>
+    <string name="subt7">Horario disponible</string>
+    <string name="Estudioname">Nombre Estudio</string>
+    <string name="appname">TATTOO MANAGER</string>
+    <!--Partes del cuerpo del cotizar 2 -->
+    <string name="Bodypar1">Cara</string>
+    <string name="Bodypar2">Abdomen</string>
+    <string name="Bodypar3">Pierna</string>
+    <string name="Bodypar4">Espalda</string>
+    <string name="Bodypar5">Brazo</string>
+    <string name="Bodypar6">Gluteo</string>
+    <!--Partes del brazo del cotizar 3 -->
+    <string name="Brazopar1">Dedos</string>
+    <string name="Brazopar2">Mano</string>
+    <string name="Brazoparr3">Muñeca</string>
+    <string name="Brazopart4">Antebrazo</string>
+    <string name="Brazopar5">Codo</string>
+    <string name="Brazopar6">Bicep/Tricep</string>
+    <string name="Brazopar7">Hombro</string>
+    <!--Partes de la espalda del cotizar 4 -->
+    <string name="Esppar1">Paleta</string>
+    <string name="Esppar2">Columna</string>
+    <string name="Espparr3">Espalda baja</string>
+
+    <!--Partes del gluteo del cotizar 5 -->
+    <string name="Glutepar1">Coxis</string>
+    <string name="Gluteopar2">Cadera</string>
+    <string name="Gluteoparr3">Gluteo</string>
+    <!--Partes de las piernas del cotizar 6 -->
+    <string name="Piepar1">MUSLO</string>
+    <string name="Piepar2">RODILLA</string>
+    <string name="Pieparr3">PIERNA</string>
+    <string name="Piepart4">PANTORRILLA</string>
+    <string name="Piepar5">TOBILLO</string>
+    <string name="Piepar6">PIE</string>
+    <!--Partes del abdomen del cotizar 7 -->
+    <string name="Abdompar1">CLAVICULA</string>
+    <string name="Abdopar2">PECHO</string>
+    <string name="Abdoparr3">COSTILLA</string>
+    <string name="Abdopart4">VIENTRE</string>
+    <!--Partes de la cara del cotizar 8 -->
+    <string name="Carapar1">OREJA</string>
+    <string name="Carapar2">CARA</string>
+    <string name="Caraparr3">CUELLO</string>
+    <!--Color de piel del cotizar 9 -->
+    <string name="Pieltxt">Según los colores mostrados ¿Cuál se asemeja a tu tono de piel?</string>
+
+    <!--RadioButons texto -->
+    <string name="RarioBtn">Op1</string>
+    <string name="RarioBtn1">Op2</string>
+    <string name="RarioBtn2">Op3</string>
+    <string name="RarioBtn3">Op4</string>
+    <string name="RarioBtn4">Op5</string>
+    <string name="RarioBtn5">Op6</string>
+    <string name="RarioBtn6">Op7</string>
+
+    <!--Check Box texto -->
+    <string name="Checkbx">Op1</string>
+    <string name="Checkbx1">Op2</string>
+    <string name="Checkbx2">Op3</string>
+    <string name="Checkbx3">Op4</string>
+    <string name="Checkbx4">Op5</string>
+    <string name="Checkbx5">Op6</string>
+    <string name="Checkbx6">Op7</string>
+    <!--Multiline text -->
+    <string name="Coments">Comentarios...</string>
+
+    <!--switch texto -->
+    <string name="SRealismo">Realismo</string>
+    <string name="SAcuarela">Acuarela</string>
+    <string name="SBiomecanico">Biomecanico</string>
+    <string name="SBYG">Black Gray</string>
+    <string name="SBrush">Brush</string>
+    <string name="SDW">Dot Work</string>
+    <string name="SGeometrico">Geometrico</string>
+    <string name="SGotico">Gotico</string>
+    <string name="SJapones">Japones</string>
+    <string name="SKawaii">Kawaii</string>
+    <string name="SLettering">Lettering</string>
+    <string name="SMinimalismo">Minimalista</string>
+    <string name="SNeo">Neotradicional</string>
+    <string name="SOrnamental">Ornamental</string>
+    <string name="SThin">Thin Linner</string>
+    <string name="STradicional">Tradicional</string>
+    <string name="STrash">Trash Polka</string>
+    <string name="STribal">Tribal</string>
+    <string name="S3D">3D</string>
+    <string name="SBW">Black Work</string>
+
+    <!--texto -->
+    <string name="Estilo">Estilo de Tatuajes</string>
+    <string name="EInstrucciones">Selecciona los estilos de tatuajes que deseas manejar</string>
+    <string name="Tarifa">Tarifa de precios</string>
+    <string name="Instruccion2">Responde las siguientes preguntas para registrar la variación de tus precios</string>
+    <string name="pregunta18">¿Cuánto cobrarías por este tatuaje de 18 cm?</string>
+    <string name="pregunta14">¿Cuánto cobrarías por este tatuaje de 14 cm?</string>
+    <string name="pregunta30">¿Cuánto cobrarías por este tatuaje de 30 cm?</string>
+
+    <string name="pregunta12">¿Cuánto cobrarías por este tatuaje de 12 cm?</string>
+    <string name="pregunta25">¿Cuánto cobrarías por este tatuaje de 25 cm?</string>
+    <string name="pregunta10">¿Cuánto cobrarías por este tatuaje de 10 cm?</string>
+    <string name="pregunta9">¿Cuánto cobrarías por este tatuaje de 9 cm?</string>
+    <string name="pregunta23">¿Cuánto cobrarías por este tatuaje de 23 cm?</string>
+
+    <string name="pregunta17">¿Cuánto cobrarías por este tatuaje de 17 cm?</string>
+
+    <string name="pregunta20">¿Cuánto cobrarías por este tatuaje de 20 cm?</string>
+    <string name="pregunta90">¿Cuánto cobrarías por este tatuaje en todo el brazo?</string>
+
+    <string name="pregunta46">¿Cuánto cobrarías por este tatuaje en todo el antebrazo?</string>
+    <string name="title_activity_tarifa19">Tarifa19</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="title_activity_menu_administrador">MenuAdministrador</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_este">Este</string>
+    <string name="title_activity_menu">Menu</string>
+    <!-- Default -->
+    <string name="default1">hola</string>
+    <!--Botones texto -->
+    <string name="btnIniciar">Iniciar sesión</string>
+    <string name="btnCompartir">Compartir</string>
+    <!--Titulos texto -->
+
+    <string name="Question6">¿Comó se llama tu estudio?</string>
+    <string name="Subt8">Selecciona el estilo que más se asemeje al que deseas</string>
+    <string name="Subt9">Num. de colores:</string>
+    <string name="subt10">Imagen</string>
+    <string name="aviso">Aviso XD</string>
+    <string name="User">Usuario:</string>
+    <string name="psw">Contraseña:</string>
+    <string name="ind1">Agrega al administrador</string>
+    <string name="Slogan">Cotiza en cualquier lugar</string>
+    <!-- Caracteristicas -->
+    <string name="tZona">Zona:</string>
+    <string name="tTono">Tono de piel:</string>
+    <string name="tEstilo">Estilo:</string>
+    <string name="tColores">Colores:</string>
+    <string name="tTamaño">Tamaño:</string>
+
+    <!--Multiline text -->
+
+    <string name="title_activity_cotizar8c">cotizar8c</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_cliente">Cliente</string>
+    <string name="Menucliente">Menu</string>
+    <string name="TxtEstudio">Local azul arriba del six, a dos locales de la Clinica del Conchi</string>
+    <string name="Txtdomicilio">Manuel J. Clothier 3933</string>
+
+    <!--Scrollview-->
+    <string name="Scrollfotos">Fotos</string>
+
+    <!--Botones Menu cliente -->
+    <string name="btnEstudio">estudio</string>
+    <string name="btnGaleria">galeria</string>
+    <string name="btnCotizarc">cotizar</string>
+    <string name="btnInformacion">informacion</string>
+    <string name="btnface">facebook</string>
+    <string name="btnwhats">Whatsapp</string>
+    <string name="btninsta">Instagram</string>
+    <string name="title_activity_galeria">Galeria</string>
+    <string name="large_text"></string>
+    <string name="Hautatoo">HAU TATTOO</string>
+    <string name="logohau">haulogo</string>
+    <string name="gracias">GRACIAS POR SU PREFERENCIA</string>
+    <string name="txtmegusta">Por favor dale me gusta a la pagina</string>
+    <string name="txtcotiar">Para poder cotizar en necesario que le des me gusta...</string>
+    <!-- Galeria -->
+    <string name="tatu1">Tatuaje1</string>
+    <string name="tatu2">Tatuaje2</string>
+    <string name="tatu3">Tatuaje3</string>
+    <string name="tatu4">Tatuaje4</string>
+    <string name="tatu5">Tatuaje5</string>
+    <string name="tatu6">Tatuaje6</string>
+    <string name="tatu7">Tatuaje7</string>
+    <string name="tatu8">Tatuaje8</string>
+    <string name="tatu9">Tatuaje9</string>
+    <string name="tatu10">Tatuaje10</string>
+    <string name="tatu11">Tatuaje11</string>
+    <string name="tatu12">Tatuaje12</string>
+    <string name="tatu13">Tatuaje13</string>
+    <string name="tatu14">Tatuaje14</string>
+    <string name="tatu15">Tatuaje15</string>
+    <string name="tatu16">Tatuaje16</string>
+    <string name="tatu17">Tatuaje17</string>
+    <string name="tatu18">Tatuaje18</string>
+    <string name="tatu19">Tatuaje19</string>
+    <string name="tatu20">Tatuaje20</string>
+    <string name="tatu21">Tatuaje21</string>
+    <string name="tatu22">Tatuaje22</string>
+    <string name="tatu23">Tatuaje23</string>
+    <string name="tatu24">Tatuaje24</string>
+    <string name="tatu25">Tatuaje25</string>
+    <string name="tatu26">Tatuaje26</string>
+    <string name="tatu27">Tatuaje27</string>
+    <string name="tatu28">Tatuaje28</string>
+    <string name="tatu29">Tatuaje29</string>
+    <string name="tatu30">Tatuaje30</string>
+    <string name="tatu31">Tatuaje31</string>
+    <string name="tatu32">Tatuaje32</string>
+    <string name="tatu33">Tatuaje33</string>
+    <string name="tatu34">Tatuaje34</string>
+    <string name="tatu35">Tatuaje35</string>
+    <string name="tatu36">Tatuaje36</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="FirstNameText">First Name :</string>
+    <string name="FirstNameTextField">Enter First Name</string>
+    <string name="SecondNameTextField">Enter Second Name</string>
+    <string name="LastNameText">Last Name :</string>
+    <string name="EmailText">Email :</string>
+    <string name="UserMailId">Enter Email</string>
+    <string name="submitButton">Register</string>
+    <string name="List_of_Users_text">List Of Registered Users</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="PasswordText">Password:</string>
+    <string name="PasswordTextFiels">Enter Password</string>
+    <string name="UserNameTextView">User Name:</string>
+    <string name="UsernameTextField">Enter User Name</string>
+    <string name="backButton">Back</string>
+    <string name="Login_text">Login</string>
+    <string name="Login_button">Login</string>
+    <string name="signupText">Sign Up!</string>
+
+</resources>

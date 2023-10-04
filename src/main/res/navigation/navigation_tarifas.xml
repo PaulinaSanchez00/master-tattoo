@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation2"
+    app:startDestination="@id/tar">
+
+    <fragment
+        android:id="@+id/tar"
+        android:name="com.example.paulina.menuadmi.tarifasadmmenu.Tar"
+        android:label="Tar"
+        tools:layout="@layout/fragment_tar" >
+        <action
+            android:id="@+id/action_tar_to_tar2"
+            app:destination="@id/tar2" />
+    </fragment>
+    <fragment
+        android:id="@+id/tar2"
+        android:name="com.example.paulina.menuadmi.tarifasadmmenu.Tar2"
+        android:label="Tar2"
+        tools:layout="@layout/fragment_tar2">
+        <action
+            android:id="@+id/action_tar2_to_tar3"
+            app:destination="@id/tar3" />
+    </fragment>
+    <fragment
+        android:id="@+id/tar3"
+        android:name="com.example.paulina.menuadmi.tarifasadmmenu.Tar3"
+        android:label="Tar3"
+        tools:layout="@layout/fragment_tar3">
+        <action
+            android:id="@+id/action_tar3_to_tar4"
+            app:destination="@id/tar4" />
+    </fragment>
+    <fragment
+        android:id="@+id/tar4"
+        android:name="com.example.paulina.menuadmi.tarifasadmmenu.Tar4"
+        android:label="Tar4"
+        tools:layout="@layout/fragment_tar4">
+        <action
+            android:id="@+id/action_tar4_to_tar5"
+            app:destination="@id/tar5" />
+    </fragment>
+    <fragment
+        android:id="@+id/tar5"
+        android:name="com.example.paulina.menuadmi.tarifasadmmenu.Tar5"
+        android:label="Tar5"
+        tools:layout="@layout/fragment_tar5">
+        <action
+            android:id="@+id/action_tar5_to_tar6"
+            app:destination="@id/tar6" />
+    </fragment>
+    <fragment
+        android:id="@+id/tar6"
+        android:name="com.example.paulina.menuadmi.tarifasadmmenu.Tar6"
+        android:label="Tar6"
+        tools:layout="@layout/fragment_tar6">
+        <action
+            android:id="@+id/action_tar6_to_tar7"
+            app:destination="@id/tar7" />
+    </fragment>
+    <fragment
+        android:id="@+id/tar7"
+        android:name="com.example.paulina.menuadmi.tarifasadmmenu.Tar7"
+        android:label="Tar7"
+        tools:layout="@layout/fragment_tar7">
+        <action
+            android:id="@+id/action_tar7_to_tar8"
+            app:destination="@id/tar8" />
+    </fragment>
+    <fragment
+        android:id="@+id/tar8"
+        android:name="com.example.paulina.menuadmi.tarifasadmmenu.Tar8"
+        android:label="Tar8"
+        tools:layout="@layout/fragment_tar8">
+        <action
+            android:id="@+id/action_tar8_to_tar9"
+            app:destination="@id/tar9" />
+    </fragment>
+    <fragment
+        android:id="@+id/tar9"
+        android:name="com.example.paulina.menuadmi.tarifasadmmenu.Tar9"
+        android:label="Tar9"
+        tools:layout="@layout/fragment_tar9">
+        <action
+            android:id="@+id/action_tar9_to_tar10"
+            app:destination="@id/tar10" />
+    </fragment>
+    <fragment
+        android:id="@+id/tar10"
+        android:name="com.example.paulina.menuadmi.tarifasadmmenu.Tar10"
+        android:label="Tar10"
+        tools:layout="@layout/fragment_tar10">
+        <action
+            android:id="@+id/action_tar10_to_tar11"
+            app:destination="@id/tar11" />
+    </fragment>
+    <fragment
+        android:id="@+id/tar11"
+        android:name="com.example.paulina.menuadmi.tarifasadmmenu.Tar11"
+        android:label="Tar11"
+        tools:layout="@layout/fragment_tar11">
+        <action
+            android:id="@+id/action_tar11_to_tar12"
+            app:destination="@id/tar12" />
+    </fragment>
+    <fragment
+        android:id="@+id/tar12"
+        android:name="com.example.paulina.menuadmi.tarifasadmmenu.Tar12"
+        android:label="Tar12"
+        tools:layout="@layout/fragment_tar12">
+        <action
+            android:id="@+id/action_tar12_to_tar13"
+            app:destination="@id/tar13" />
+    </fragment>
+    <fragment
+        android:id="@+id/tar13"
+        android:name="com.example.paulina.menuadmi.tarifasadmmenu.Tar13"
+        android:label="Tar13"
+        tools:layout="@layout/fragment_tar13">
+        <action
+            android:id="@+id/action_tar13_to_tar14"
+            app:destination="@id/tar14" />
+    </fragment>
+    <fragment
+        android:id="@+id/tar14"
+        android:name="com.example.paulina.menuadmi.tarifasadmmenu.Tar14"
+        android:label="Tar14"
+        tools:layout="@layout/fragment_tar14">
+        <action
+            android:id="@+id/action_tar14_to_tar15"
+            app:destination="@id/tar15" />
+    </fragment>
+    <fragment
+        android:id="@+id/tar15"
+        android:name="com.example.paulina.menuadmi.tarifasadmmenu.Tar15"
+        android:label="Tar15"
+        tools:layout="@layout/fragment_tar15">
+        <action
+            android:id="@+id/action_tar15_to_tar16"
+            app:destination="@id/tar16" />
+    </fragment>
+    <fragment
+        android:id="@+id/tar16"
+        android:name="com.example.paulina.menuadmi.tarifasadmmenu.Tar16"
+        android:label="Tar16"
+        tools:layout="@layout/fragment_tar16">
+        <action
+            android:id="@+id/action_tar16_to_tar17"
+            app:destination="@id/tar17" />
+    </fragment>
+    <fragment
+        android:id="@+id/tar17"
+        android:name="com.example.paulina.menuadmi.tarifasadmmenu.Tar17"
+        android:label="Tar17"
+        tools:layout="@layout/fragment_tar17">
+        <action
+            android:id="@+id/action_tar17_to_tar18"
+            app:destination="@id/tar18" />
+    </fragment>
+    <fragment
+        android:id="@+id/tar18"
+        android:name="com.example.paulina.menuadmi.tarifasadmmenu.Tar18"
+        android:label="Tar18"
+        tools:layout="@layout/fragment_tar18">
+        <action
+            android:id="@+id/action_tar18_to_tar19"
+            app:destination="@id/tar19" />
+    </fragment>
+    <fragment
+        android:id="@+id/tar19"
+        android:name="com.example.paulina.menuadmi.tarifasadmmenu.Tar19"
+        android:label="Tar19"
+        tools:layout="@layout/fragment_tar19">
+        <action
+            android:id="@+id/action_tar19_to_tar20"
+            app:destination="@id/tar20" />
+    </fragment>
+    <fragment
+        android:id="@+id/tar20"
+        android:name="com.example.paulina.menuadmi.tarifasadmmenu.Tar20"
+        android:label="Tar20"
+        tools:layout="@layout/fragment_tar20">
+    </fragment>
+</navigation>

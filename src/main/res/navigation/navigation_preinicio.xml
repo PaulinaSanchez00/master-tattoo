@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    app:startDestination="@id/comprobador">
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.paulina.register.RegisterFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/register_home_fragment" >
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_registerFragment_to_bienvenida32"
+            app:destination="@id/bienvenida2" />
+    </fragment>
+    <fragment
+        android:id="@+id/userDetailsFragment"
+        android:name="com.example.paulina.userDetails.UserDetailsFragment"
+        android:label="user_details_fragment"
+        tools:layout="@layout/user_details_fragment" >
+        <action
+            android:id="@+id/action_userDetailsFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.paulina.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_userDetailsFragment"
+            app:destination="@id/userDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/comprobador"
+        android:name="com.example.paulina.comprobador.ComprobadorFragment"
+        android:label="fragment_comprobador"
+        tools:layout="@layout/fragment_comprobador" >
+        <action
+            android:id="@+id/action_bienvenida32_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_bienvenida32_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectEstilos2"
+        android:name="com.example.paulina.preinicio.SelectEstilos"
+        android:label="fragment_select_estilos"
+        tools:layout="@layout/fragment_select_estilos" >
+        <action
+            android:id="@+id/action_selectEstilos2_to_pre_Tarifa"
+            app:destination="@id/pre_Tarifa" />
+    </fragment>
+    <fragment
+        android:id="@+id/pre_Tarifa"
+        android:name="com.example.paulina.preinicio_tarifas.PreTarifa"
+        android:label="fragment_pre_tarifa"
+        tools:layout="@layout/fragment_pre_tarifa" >
+        <action
+            android:id="@+id/action_pre_Tarifa_to_pre_Tarifa2"
+            app:destination="@id/pre_Tarifa2" />
+    </fragment>
+    <fragment
+        android:id="@+id/pre_Tarifa2"
+        android:name="com.example.paulina.preinicio_tarifas.PreTarifa2"
+        android:label="fragment_pre_tarifa2"
+        tools:layout="@layout/fragment_pre_tarifa2" >
+        <action
+            android:id="@+id/action_pre_Tarifa2_to_pre_Tarifa3"
+            app:destination="@id/pre_Tarifa3" />
+    </fragment>
+    <fragment
+        android:id="@+id/pre_Tarifa3"
+        android:name="com.example.paulina.preinicio_tarifas.PreTarifa3"
+        android:label="fragment_pre_tarifa3"
+        tools:layout="@layout/fragment_pre_tarifa3" >
+        <action
+            android:id="@+id/action_pre_Tarifa3_to_pre_Tarifa4"
+            app:destination="@id/pre_Tarifa4" />
+    </fragment>
+    <fragment
+        android:id="@+id/pre_Tarifa4"
+        android:name="com.example.paulina.preinicio_tarifas.PreTarifa4"
+        android:label="fragment_pre_tarifa4"
+        tools:layout="@layout/fragment_pre_tarifa4" >
+        <action
+            android:id="@+id/action_pre_Tarifa4_to_pre_Tarifa5"
+            app:destination="@id/pre_Tarifa5" />
+    </fragment>
+    <fragment
+        android:id="@+id/pre_Tarifa5"
+        android:name="com.example.paulina.preinicio_tarifas.PreTarifa5"
+        android:label="fragment_pre_tarifa5"
+        tools:layout="@layout/fragment_pre_tarifa5" >
+        <action
+            android:id="@+id/action_pre_Tarifa5_to_pre_Tarifa6"
+            app:destination="@id/pre_Tarifa6" />
+    </fragment>
+    <fragment
+        android:id="@+id/pre_Tarifa6"
+        android:name="com.example.paulina.preinicio_tarifas.PreTarifa6"
+        android:label="fragment_pre_tarifa6"
+        tools:layout="@layout/fragment_pre_tarifa6" >
+        <action
+            android:id="@+id/action_pre_Tarifa6_to_pre_Tarifa7"
+            app:destination="@id/pre_Tarifa7" />
+    </fragment>
+    <fragment
+        android:id="@+id/pre_Tarifa7"
+        android:name="com.example.paulina.preinicio_tarifas.PreTarifa7"
+        android:label="fragment_pre_tarifa7"
+        tools:layout="@layout/fragment_pre_tarifa7" >
+        <action
+            android:id="@+id/action_pre_Tarifa7_to_pre_Tarifa8"
+            app:destination="@id/pre_Tarifa8" />
+    </fragment>
+    <fragment
+        android:id="@+id/pre_Tarifa8"
+        android:name="com.example.paulina.preinicio_tarifas.PreTarifa8"
+        android:label="fragment_pre_tarifa8"
+        tools:layout="@layout/fragment_pre_tarifa8" >
+        <action
+            android:id="@+id/action_pre_Tarifa8_to_pre_Tarifa9"
+            app:destination="@id/pre_Tarifa9" />
+    </fragment>
+    <fragment
+        android:id="@+id/pre_Tarifa9"
+        android:name="com.example.paulina.preinicio_tarifas.PreTarifa9"
+        android:label="fragment_pre_tarifa9"
+        tools:layout="@layout/fragment_pre_tarifa9" >
+        <action
+            android:id="@+id/action_pre_Tarifa9_to_pre_Tarifa10"
+            app:destination="@id/pre_Tarifa10" />
+    </fragment>
+    <fragment
+        android:id="@+id/pre_Tarifa10"
+        android:name="com.example.paulina.preinicio_tarifas.PreTarifa10"
+        android:label="fragment_pre_tarifa10"
+        tools:layout="@layout/fragment_pre_tarifa10" >
+        <action
+            android:id="@+id/action_pre_Tarifa10_to_pre_Tarifa11"
+            app:destination="@id/pre_Tarifa11" />
+    </fragment>
+    <fragment
+        android:id="@+id/pre_Tarifa11"
+        android:name="com.example.paulina.preinicio_tarifas.PreTarifa11"
+        android:label="fragment_pre_tarifa11"
+        tools:layout="@layout/fragment_pre_tarifa11" >
+        <action
+            android:id="@+id/action_pre_Tarifa11_to_pre_Tarifa12"
+            app:destination="@id/pre_Tarifa12" />
+    </fragment>
+    <fragment
+        android:id="@+id/pre_Tarifa12"
+        android:name="com.example.paulina.preinicio_tarifas.PreTarifa12"
+        android:label="fragment_pre_tarifa12"
+        tools:layout="@layout/fragment_pre_tarifa12" >
+        <action
+            android:id="@+id/action_pre_Tarifa12_to_pre_Tarifa13"
+            app:destination="@id/pre_Tarifa13" />
+    </fragment>
+    <fragment
+        android:id="@+id/pre_Tarifa13"
+        android:name="com.example.paulina.preinicio_tarifas.PreTarifa13"
+        android:label="fragment_pre_tarifa13"
+        tools:layout="@layout/fragment_pre_tarifa13" >
+        <action
+            android:id="@+id/action_pre_Tarifa13_to_pre_Tarifa14"
+            app:destination="@id/pre_Tarifa14" />
+    </fragment>
+    <fragment
+        android:id="@+id/pre_Tarifa14"
+        android:name="com.example.paulina.preinicio_tarifas.PreTarifa14"
+        android:label="fragment_pre_tarifa14"
+        tools:layout="@layout/fragment_pre_tarifa14" >
+        <action
+            android:id="@+id/action_pre_Tarifa14_to_pre_Tarifa15"
+            app:destination="@id/pre_Tarifa15" />
+    </fragment>
+    <fragment
+        android:id="@+id/pre_Tarifa15"
+        android:name="com.example.paulina.preinicio_tarifas.PreTarifa15"
+        android:label="fragment_pre_tarifa15"
+        tools:layout="@layout/fragment_pre_tarifa15" >
+        <action
+            android:id="@+id/action_pre_Tarifa15_to_pre_Tarifa16"
+            app:destination="@id/pre_Tarifa16" />
+    </fragment>
+    <fragment
+        android:id="@+id/pre_Tarifa16"
+        android:name="com.example.paulina.preinicio_tarifas.PreTarifa16"
+        android:label="fragment_pre_tarifa16"
+        tools:layout="@layout/fragment_pre_tarifa16" >
+        <action
+            android:id="@+id/action_pre_Tarifa16_to_pre_Tarifa17"
+            app:destination="@id/pre_Tarifa17" />
+    </fragment>
+    <fragment
+        android:id="@+id/pre_Tarifa17"
+        android:name="com.example.paulina.preinicio_tarifas.PreTarifa17"
+        android:label="fragment_pre_tarifa17"
+        tools:layout="@layout/fragment_pre_tarifa17" >
+        <action
+            android:id="@+id/action_pre_Tarifa17_to_pre_Tarifa18"
+            app:destination="@id/pre_Tarifa18" />
+    </fragment>
+    <fragment
+        android:id="@+id/pre_Tarifa18"
+        android:name="com.example.paulina.preinicio_tarifas.PreTarifa18"
+        android:label="fragment_pre_tarifa18"
+        tools:layout="@layout/fragment_pre_tarifa18" >
+        <action
+            android:id="@+id/action_pre_Tarifa18_to_pre_Tarifa19"
+            app:destination="@id/pre_Tarifa19" />
+    </fragment>
+    <fragment
+        android:id="@+id/pre_Tarifa19"
+        android:name="com.example.paulina.preinicio_tarifas.PreTarifa19"
+        android:label="fragment_pre_tarifa19"
+        tools:layout="@layout/fragment_pre_tarifa19" >
+        <action
+            android:id="@+id/action_pre_Tarifa19_to_pre_Tarifa20"
+            app:destination="@id/pre_Tarifa20" />
+    </fragment>
+    <fragment
+        android:id="@+id/pre_Tarifa20"
+        android:name="com.example.paulina.preinicio_tarifas.PreTarifa20"
+        android:label="fragment_pre_tarifa20"
+        tools:layout="@layout/fragment_pre_tarifa20" >
+        <action
+            android:id="@+id/action_pre_Tarifa20_to_bienvenida4"
+            app:destination="@id/bienvenida4" />
+    </fragment>
+    <fragment
+        android:id="@+id/bienvenida5"
+        android:name="com.example.paulina.preinicio.Bienvenida5"
+        android:label="fragment_bienvenida5"
+        tools:layout="@layout/fragment_bienvenida5" >
+        <action
+            android:id="@+id/action_bienvenida5_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bienvenida4"
+        android:name="com.example.paulina.preinicio.Bienvenida4"
+        android:label="fragment_bienvenida4"
+        tools:layout="@layout/fragment_bienvenida4" >
+        <action
+            android:id="@+id/action_bienvenida4_to_bienvenida5"
+            app:destination="@id/bienvenida5" />
+    </fragment>
+    <fragment
+        android:id="@+id/bienvenida2"
+        android:name="com.example.paulina.preinicio.Bienvenida2"
+        android:label="fragment_bienvenida2"
+        tools:layout="@layout/fragment_bienvenida2" >
+        <action
+            android:id="@+id/action_bienvenida2_to_selectEstilos2"
+            app:destination="@id/selectEstilos2" />
+    </fragment>
+</navigation>

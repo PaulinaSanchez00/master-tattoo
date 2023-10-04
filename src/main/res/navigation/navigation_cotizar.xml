@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/cot">
+    <fragment
+        android:id="@+id/cot"
+        android:name="com.example.paulina.cotizar.Cot"
+        android:label="fragment_cot"
+        tools:layout="@layout/fragment_cot" >
+        <action
+            android:id="@+id/action_cot_to_cot2"
+            app:destination="@id/cot2" />
+    </fragment>
+    <fragment
+        android:id="@+id/cot2"
+        android:name="com.example.paulina.cotizar.Cot2"
+        android:label="fragment_cot2"
+        tools:layout="@layout/fragment_cot2" >
+        <action
+            android:id="@+id/action_cot2_to_cot3"
+            app:destination="@id/cot3" />
+        <action
+            android:id="@+id/action_cot2_to_cot4"
+            app:destination="@id/cot4" />
+        <action
+            android:id="@+id/action_cot2_to_cot5"
+            app:destination="@id/cot5" />
+        <action
+            android:id="@+id/action_cot2_to_cot6"
+            app:destination="@id/cot6" />
+        <action
+            android:id="@+id/action_cot2_to_cot7"
+            app:destination="@id/cot7" />
+        <action
+            android:id="@+id/action_cot2_to_cot8"
+            app:destination="@id/cot8" />
+        <action
+            android:id="@+id/action_cot2_to_cot"
+            app:destination="@id/cot" />
+    </fragment>
+    <fragment
+        android:id="@+id/cot3"
+        android:name="com.example.paulina.cotizar.Cot3"
+        android:label="fragment_cot3"
+        tools:layout="@layout/fragment_cot3" >
+        <action
+            android:id="@+id/action_cot3_to_cot2"
+            app:destination="@id/cot2" />
+        <action
+            android:id="@+id/action_cot3_to_cot10"
+            app:destination="@id/cot10" />
+    </fragment>
+    <fragment
+        android:id="@+id/cot4"
+        android:name="com.example.paulina.cotizar.Cot4"
+        android:label="fragment_cot4"
+        tools:layout="@layout/fragment_cot4" >
+        <action
+            android:id="@+id/action_cot4_to_cot2"
+            app:destination="@id/cot2" />
+        <action
+            android:id="@+id/action_cot4_to_cot10"
+            app:destination="@id/cot10" />
+    </fragment>
+    <fragment
+        android:id="@+id/cot5"
+        android:name="com.example.paulina.cotizar.Cot5"
+        android:label="fragment_cot5"
+        tools:layout="@layout/fragment_cot5" >
+        <action
+            android:id="@+id/action_cot5_to_cot2"
+            app:destination="@id/cot2" />
+        <action
+            android:id="@+id/action_cot5_to_cot10"
+            app:destination="@id/cot10" />
+    </fragment>
+    <fragment
+        android:id="@+id/cot6"
+        android:name="com.example.paulina.cotizar.Cot6"
+        android:label="fragment_cot6"
+        tools:layout="@layout/fragment_cot6" >
+        <action
+            android:id="@+id/action_cot6_to_cot2"
+            app:destination="@id/cot2" />
+        <action
+            android:id="@+id/action_cot6_to_cot10"
+            app:destination="@id/cot10" />
+    </fragment>
+    <fragment
+        android:id="@+id/cot7"
+        android:name="com.example.paulina.cotizar.Cot7"
+        android:label="fragment_cot7"
+        tools:layout="@layout/fragment_cot7" >
+        <action
+            android:id="@+id/action_cot7_to_cot2"
+            app:destination="@id/cot2" />
+        <action
+            android:id="@+id/action_cot7_to_cot10"
+            app:destination="@id/cot10" />
+    </fragment>
+    <fragment
+        android:id="@+id/cot8"
+        android:name="com.example.paulina.cotizar.Cot8"
+        android:label="fragment_cot8"
+        tools:layout="@layout/fragment_cot8" >
+        <action
+            android:id="@+id/action_cot8_to_cot2"
+            app:destination="@id/cot2" />
+        <action
+            android:id="@+id/action_cot8_to_cot10"
+            app:destination="@id/cot10" />
+    </fragment>
+    <fragment
+        android:id="@+id/cot10"
+        android:name="com.example.paulina.cotizar.Cot10"
+        android:label="fragment_cot10"
+        tools:layout="@layout/fragment_cot10" >
+        <action
+            android:id="@+id/action_cot10_to_cot11"
+            app:destination="@id/cot11" />
+        <action
+            android:id="@+id/action_cot10_to_cot2"
+            app:destination="@id/cot2" />
+    </fragment>
+    <fragment
+        android:id="@+id/cot11"
+        android:name="com.example.paulina.cotizar.Cot11"
+        android:label="fragment_cot11"
+        tools:layout="@layout/fragment_cot11">
+        <action
+            android:id="@+id/action_cot11_to_cot10"
+            app:destination="@id/cot10" />
+        <action
+            android:id="@+id/action_cot11_to_cot12"
+            app:destination="@id/cot12" />
+    </fragment>
+    <fragment
+        android:id="@+id/cot12"
+        android:name="com.example.paulina.cotizar.Cot12"
+        android:label="fragment_cot12"
+        tools:layout="@layout/fragment_cot12" >
+        <action
+            android:id="@+id/action_cot12_to_cot11"
+            app:destination="@id/cot11" />
+        <action
+            android:id="@+id/action_cot12_to_cot13"
+            app:destination="@id/cot13" />
+    </fragment>
+    <fragment
+        android:id="@+id/cot13"
+        android:name="com.example.paulina.cotizar.Cot13"
+        android:label="fragment_cot13"
+        tools:layout="@layout/fragment_cot13" >
+        <action
+            android:id="@+id/action_cot13_to_cot12"
+            app:destination="@id/cot12" />
+        <action
+            android:id="@+id/action_cot13_to_cot14"
+            app:destination="@id/cot14" />
+    </fragment>
+    <fragment
+        android:id="@+id/cot14"
+        android:name="com.example.paulina.cotizar.Cot14"
+        android:label="fragment_cot14"
+        tools:layout="@layout/fragment_cot14" >
+        <action
+            android:id="@+id/action_cot14_to_cot13"
+            app:destination="@id/cot13" />
+        <action
+            android:id="@+id/action_cot14_to_cot"
+            app:destination="@id/cot" />
+    </fragment>
+</navigation>

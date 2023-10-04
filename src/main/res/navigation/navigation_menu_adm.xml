@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation3"
+    app:startDestination="@id/nav_menu">
+
+    <fragment
+        android:id="@+id/nav_informacion"
+        android:name="com.example.paulina.menuadmi.informacion.InformacionFragment"
+        android:label="Mi Información"
+        tools:layout="@layout/fragment_informacion" >
+        <action
+            android:id="@+id/action_nav_informacion_to_nav_menu"
+            app:destination="@id/nav_menu" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_tarifas"
+        android:name="com.example.paulina.menuadmi.tarifas.TarifasFragment"
+        android:label="Tarifas"
+        tools:layout="@layout/fragment_tarifas" >
+        <action
+            android:id="@+id/action_nav_tarifas_to_nav_menu"
+            app:destination="@id/nav_menu" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_estilos"
+        android:name="com.example.paulina.menuadmi.estilos.EstilosFragment"
+        android:label="Estilos"
+        tools:layout="@layout/fragment_estilos" >
+        <action
+            android:id="@+id/action_nav_estilos_to_nav_menu"
+            app:destination="@id/nav_menu" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_menu"
+        android:name="com.example.paulina.menuadmi.ContenedorMenuAdm"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_menu2" >
+        <action
+            android:id="@+id/action_menu_to_nav_tarifas"
+            app:destination="@id/nav_tarifas" />
+        <action
+            android:id="@+id/action_menu_to_nav_estilos"
+            app:destination="@id/nav_estilos" />
+        <action
+            android:id="@+id/action_menu_to_nav_informacion"
+            app:destination="@id/nav_informacion" />
+        <action
+            android:id="@+id/action_nav_menu_to_login22"
+            app:destination="@id/login22" />
+        <action
+            android:id="@+id/action_nav_menu_to_tra"
+            app:destination="@id/tra" />
+
+    </fragment>
+    <activity
+        android:id="@+id/login22"
+        android:name="com.example.paulina.menuadmi.AdmCliente"
+        android:label="activity_login2"
+        tools:layout="@layout/activity_adm_cliente" />
+    <fragment
+        android:id="@+id/tra"
+        android:name="com.example.paulina.menuadmi.Tra"
+        android:label="Mis Trabajos"
+        tools:layout="@layout/fragment_tra" >
+        <action
+            android:id="@+id/action_tra_to_nav_menu"
+            app:destination="@id/nav_menu" />
+    </fragment>
+
+
+</navigation>

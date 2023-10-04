@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/trabajo"
+    app:startDestination="@id/comprobante_Adm">
+    <fragment
+        android:id="@+id/loginFragment2"
+        android:name="com.example.paulina.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/comprobante_Adm"
+        android:name="com.example.paulina.menu_cliente.ComprobanteAdm"
+        android:label="fragment_comprobante_adm"
+        tools:layout="@layout/fragment_comprobante_adm" >
+        <action
+            android:id="@+id/action_comprobante_Adm_to_loginFragment2"
+            app:destination="@id/loginFragment2" />
+    </fragment>
+</navigation>

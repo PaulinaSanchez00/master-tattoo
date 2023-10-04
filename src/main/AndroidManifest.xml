@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.paulina">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_logo_tm"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_logo_tm"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Paulina"
+        tools:targetApi="31">
+        <activity
+            android:name=".menu_cliente.Mapa"
+            android:exported="false" />
+        <activity
+            android:name=".menuadmi.imagenes.NuevaImagen"
+            android:exported="false" />
+        <activity
+            android:name=".menuadmi.trabajo.MisTrabajosModificar"
+            android:exported="false" />
+        <activity
+            android:name=".menu_cliente.ClienteAdm"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".menuadmi.AdmCliente"
+            android:exported="false" />
+        <activity
+            android:name=".menu_cliente.MenuCliente"
+            android:exported="false"
+            android:label="@string/title_activity_cliente"
+            android:theme="@style/Theme.Paulina.NoActionBar" />
+        <activity
+            android:name=".menuadmi.MenuAdm"
+            android:exported="false"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/Theme.Paulina.NoActionBar" />
+        <activity
+            android:name=".menuadmi.tarifasadmmenu.Tarifa"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".preinicio.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

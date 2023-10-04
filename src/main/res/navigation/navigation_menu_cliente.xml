@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/menuc2">
+
+    <fragment
+        android:id="@+id/nav_estudio"
+        android:name="com.example.paulina.menu_cliente.estudio.EstudioFragment"
+        android:label="Estudio"
+        tools:layout="@layout/fragment_estudio" />
+
+    <fragment
+        android:id="@+id/nav_galeria"
+        android:name="com.example.paulina.menu_cliente.galeria.GaleriaFragment"
+        android:label="Galeria"
+        tools:layout="@layout/fragment_galeria" />
+    <fragment
+        android:id="@+id/nav_cotizar"
+        android:name="com.example.paulina.menu_cliente.cotizar.CotizarFragment"
+        android:label="Cotizar"
+        tools:layout="@layout/fragment_cotizar" />
+    <fragment
+        android:id="@+id/nav_infor"
+        android:name="com.example.paulina.menu_cliente.infor.InforFragment"
+        android:label="Información"
+        tools:layout="@layout/fragment_infor" />
+    <fragment
+        android:id="@+id/menuc2"
+        android:name="com.example.paulina.menu_cliente.ContenedorMenuCliente"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_menuc2" >
+        <action
+            android:id="@+id/action_menuc2_to_cliente_Adm"
+            app:destination="@id/cliente_Adm" />
+    </fragment>
+    <activity
+        android:id="@+id/cliente_Adm"
+        android:name="com.example.paulina.menu_cliente.ClienteAdm"
+        android:label="activity_cliente_adm"
+        tools:layout="@layout/activity_cliente_adm" />
+</navigation>
